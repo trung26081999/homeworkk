@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px 184px 0 183px;
+    background: linear-gradient(88.88deg, #fff 0%, #F2BB2E 41.15%, #F2BB2E 53.13%, #fff 100%);
+}
+
+header {
+    padding-top: 100px;
+    /* background-color: white; */
+    border: 1px solid white;
+    background: linear-gradient(88.88deg, #F2BB2E 0%, #FFFFFF 41.15%, #FFFFFF 53.13%, #F2BB2E 100%);
+
+}
+
+header img {
+    float: left;
+    padding: 20px 30px 50px;
+}
+
+header h2 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    color: #F2972E;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+    margin: 0;
+    padding-left: 0;
+    clear: both;
+    list-style-type: none;
+}
+
+.menu::after {
+    clear: both;
+    content: '';
+}
+
+.menu.menu_hoz>.menu_item {
+    width: 20%;
+    float: left;
+}
+
+.menu_item {
+    width: 200px;
+    display: block;
+}
+
+.menu_item a {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-size: 700;
+    color: #fff;
+    background-color: orange;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu_item a:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.has_child {
+    position: relative;
+}
+
+.has_child>.menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.has_child>.menu li {
+    width: 100%;
+}
+
+.has_child:hover>.menu {
+    display: block;
+}
+
+.menu_ver {
+    margin-top: 50px;
+}
+
+
+main {
+    padding: 30px;
+    border: 1px solid #fff;
+    background-color: #F4EEE4;
+}
+
+main h4 {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+section p {
+    font-family: Sora;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 50px;
+    line-height: 119%;
+    text-align: left;
+    vertical-align: Center;
+    column-count: 1;
+    column-gap: 15px;
+}
+
+main #pic {
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 354px;
+    height: 303px;
+}
+main li{
+    line-height: 30px;
+    
+    
+}
+
+.ds{
+    display: flex;
+}
+ 
+
+
+
+footer {
+    background-color: #F2972E;
+    padding: 20px;
+    margin: 0px auto 50px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
